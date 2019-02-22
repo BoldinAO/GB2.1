@@ -14,13 +14,14 @@ namespace MyGame
         protected Point Pos;
         protected Point Dir;
         protected Size Size;
-        protected Image image = Resources._1;
+        protected Image image; 
 
         public BaseObject(Point pos, Point dir, Size size)
         {
             Pos = pos;
             Dir = dir;
             Size = size;
+            image = Resources._1;
         }
 
         public virtual void Draw()
