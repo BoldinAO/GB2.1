@@ -14,7 +14,7 @@ namespace MyGame
         protected Point Pos;
         protected Point Dir;
         protected Size Size;
-        protected Image image; 
+        private readonly Image image; 
 
         public BaseObject(Point pos, Point dir, Size size)
         {
